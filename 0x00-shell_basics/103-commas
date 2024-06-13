@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -p | LC_ALL=C sort -d --ignore='[[:alpha:]][[:digit:]]*' | tr '\n' ',' | sed 's/,$/\n/'
+ls -ap | LC_COLLATE=C sort -d | tr '\n' ',' | sed 's/,$/\n/'

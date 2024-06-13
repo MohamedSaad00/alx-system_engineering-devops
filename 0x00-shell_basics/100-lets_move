@@ -1,2 +1,2 @@
 #!/bin/bash
-mv /tmp/sym/[A-Z]* /tmp/u/ 2>/dev/null
+mv /tmp/sym/[A-Z]* /tmp/u/ 2>/dev/null || true

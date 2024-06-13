@@ -1,2 +1,2 @@
 #!/bin/bash
-for dir in */; do echo -n "$dir"; done; for file in *; do [ -f "$file" ] && echo -n "$file"; done
+ls -1a --group-directories-first

@@ -1,20 +1,2 @@
 #!/bin/bash
-
-# Get the current working directory
-current_dir=$(pwd)
-# Get the parent directory
-parent_dir=$(dirname "$current_dir")
-
-# Loop through all HTML files in the current directory
-for file in "$current_dir"/*.html; do
-    if [ -f "$file" ]; then  # Check if the file exists
-        # Get the filename from the full path
-        filename=$(basename "$file")
-
-        # Check if the file does not exist in the parent directory
-        # or if it is newer than the one in the parent directory
-        if [ ! -f "$parent_dir/$filename" ] || [ "$file" -nt "$parent_dir/$filename" ]; then
-            cp "$file" "$parent_dir/"
-        fi
-    fi
-done
+cp -u *.html ..

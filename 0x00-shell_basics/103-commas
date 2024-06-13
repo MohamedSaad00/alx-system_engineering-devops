@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ap | LC_COLLATE=C sort -d | tr '\n' ',' | sed 's/,$/\n/'
+ls -ap1 | sed ':a;N;$!ba;s/\n/, /g' | sed 's/,$/\n/'

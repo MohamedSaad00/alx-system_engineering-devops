@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a | sort -f
+ls -a | sort --stable -k1h -k2d | tr ' ' ',' ; echo -n ,

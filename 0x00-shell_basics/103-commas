@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a | sort --stable -k1h -k2d | tr ' ' ',' ; echo -n ,
+ls -p | LC_ALL=C sort -d --ignore='[[:alpha:]][[:digit:]]*' | tr '\n' ',' | sed 's/,$/\n/'

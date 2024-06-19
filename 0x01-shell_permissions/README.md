@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+HEAD
 file
 =======
 0x01. Shell, permissions
@@ -647,4 +647,3 @@ Write a script that will play the StarWars IV episode in the terminal.
 -   File: `103-Star_Wars`
 
  Done! Help Re-check your code Get a sandbox
->>>>>>> 427451b14c01b1097db74e443612699d7c79b769

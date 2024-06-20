@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -n 'p;n'
+cat -n | grep '^[[:space:]]*[13579]' | cut -f2-

@@ -81,7 +81,7 @@ Please, remember that these blogs must be written in English to further your tec
 
 Save
 
-1.  <https://docs.google.com/document/d/1cc0O4o23eA4JnANrhi_cxkJIuysUhEKhO4Bc9Oaoua8/edit?usp=sharing> Remove
+1.  <https://docs.google.com/document/d/1qa2MGZtBkm4SqHgDjdnnZfU5KK29-PTO2tDT8482pxE/edit?usp=sharing> Remove
 
 **Repo:**
 
@@ -105,7 +105,7 @@ Please, remember that these blogs must be written in English to further your tec
 
 Save
 
-1.  <https://docs.google.com/document/d/1cc0O4o23eA4JnANrhi_cxkJIuysUhEKhO4Bc9Oaoua8/edit?usp=sharing> Remove
+1.  <https://docs.google.com/document/d/1FJ-lU_0jkDl18zbZGyjkZVq_LgSwJ_29oUBxcZpwO8o/edit?usp=sharing> Remove
 
 **Repo:**
 
